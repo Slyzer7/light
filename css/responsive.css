@@ -1,0 +1,516 @@
+/*
+Template Name: Mountain  -  One Page Responsive
+Author: SlyThemes
+
+/*
+- Responsive Design
+    :: 1. Navbar
+    :: 2. Miscellaneous
+    :: 3. Services
+    :: 4. Header
+    :: 5. Team
+    :: 6. Images
+    :: 7. Footer
+    :: 8. Reviews
+*/
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+                     1 - Navbar 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media (max-width: 767px){
+
+  .navbar-default .navbar-toggle{
+    background: none;
+    margin-top: 15px;
+    border: none;
+  }
+
+  .navbar-default .navbar-nav>li>a{
+    color: #111 !important;
+  }
+
+  .navbar-default .navbar-toggle:hover,
+  .navbar-default .navbar-toggle:focus
+  {
+    background: none;
+  }
+
+  .navbar-default .navbar-toggle .symbol-bar{
+    background: #fff;
+  }
+
+  .nav-scroll .navbar-toggle .symbol-bar{
+    background: #111;
+  }
+    
+  .navbar-default .navbar-collapse{
+    text-align: center;
+    border: none;
+    background: #DCDCDC;
+    margin-top: 5px;
+  }
+
+  .header .subtitle h2{
+    font-size: 35px;
+  }
+
+  .services .tab-box-item .active:after{
+    display: none;
+  }
+
+  .team .Our_Team_Sec,
+  .contact .info .item
+  {
+    margin-bottom: 50px;
+  }
+
+  .Base_Attributes .item{
+    margin-bottom: 0px;
+  }
+
+  .Works .filtering span{
+    padding: 0 10px 0;
+  }
+
+}
+
+@media (max-width: 991px){
+  .about .item-pd{
+    padding-bottom: 0px;
+  }
+  .about .item-resp-pd{
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 767px){
+  .about .item-pd{
+    padding-bottom: 0px;
+  }
+  .about .item-resp-pd{
+    padding-bottom: 0px;
+  }
+  .item-true{
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 1280px){
+
+  .navbar-default .navbar-nav>li{
+    margin: 25px 10px 0;
+    padding: 4px;
+  }
+
+  .header .subtitle h2{
+    font-size: 45px;
+  }
+
+  .posts 
+  {
+    margin-top: 0px;
+  }
+
+  .prc-pd{
+    margin-top: 0px;
+  }
+
+  .Service-Padding{
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 991px){
+
+  .navbar-default .navbar-nav>li{
+    margin: 25px 10px 0;
+    padding: 4px;
+  }
+
+  .header .subtitle h2{
+    font-size: 45px;
+  }
+
+  .posts 
+  {
+    margin-top: 50px;
+  }
+
+  .prc-pd{
+    margin-top: 50px;
+  }
+
+  .Service-Padding{
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 991px){
+  .services_content .Our-Service-info{
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+                     2 - Miscellaneous 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media (max-width: 767px){
+  .Our_Team_Sec{
+    margin-left: 6.9%;
+    width: 86.1%;
+  }
+}
+@media (max-width: 950px){
+  .resp-tablet{
+    margin-left: 11%;
+    margin-right: 11%;
+  }
+}
+@media (max-width: 767px){
+  .resp-tablet{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+@media (max-width: 1280px){
+  .resp-small{
+    margin-left: 5%;
+    width: 90%;
+  }
+}
+@media (max-width: 1280px){
+  .p-section{
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .p-section-2{
+    padding-top: 0px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+}
+@media (max-width: 1280px){
+  .side-pd{
+    margin-right: auto;
+  }
+}
+@media (max-width: 1280px){
+  .section_head{
+    text-align: center;
+  }
+}
+@media (max-width: 767px){
+  .section_head p,.section_head h5{
+      font-size: 14px;
+  }
+}
+@media (min-width: 480px){
+  .width_resp{
+    margin-right: 70px;
+    margin-left: 70px;
+  }
+}
+@media (max-width: 1280px){
+  .Works{
+    display: none;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+                     3 - Services 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (max-width: 1280px){
+  .services {
+    padding-bottom: 0;
+  }
+  .services .tab-box-item li {
+    display: inline-block;
+    padding: 1px 55px 5px;
+    cursor: pointer;
+    color: #888;
+    position: relative;
+    transition: all 1s;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  .services .tab-box-item li:before {
+    content: "";
+    width: 1px;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    right: 0;
+  }
+  .services .tab-box-item li:last-child:before {
+    display: none;
+  }
+  .services .tab-box-item li span {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .services .tab-box-item li h6 {
+    font-size: 13px;
+    text-transform: uppercase;
+  }
+  .services .tab-box-item .active {
+    color: #09ae07;
+  }
+  .services .tab-box-item .active:after {
+    display: block;
+  }
+  .services .services_content {
+    min-height: 350px;
+    padding-top: 80px;
+    padding-bottom: 57px;
+    background: #B8B8B8;
+  }
+  .services .services_content .item {
+    display: none;
+  }
+  .services .services_content .item .symbol {
+    font-size: 180px;
+    color: #f4f4f4;
+  }
+  .services .services_content .item h5 {
+    color: #09ae07;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-weight: 300;
+  }
+  .services .services_content .active {
+    display: block;
+  }
+  .icon-color{
+    color: #09ae07;
+  }
+}
+@media (max-width: 767px){
+  .services {
+    padding-bottom: 0;
+  }
+  .services .tab-box-item li {
+    display: inline-block;
+    padding: 1px 30px 5px;
+    cursor: pointer;
+    color: #888;
+    position: relative;
+    transition: all 1s;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  .services .tab-box-item li:before {
+    content: "";
+    width: 1px;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    right: 0;
+  }
+  .services .tab-box-item li:last-child:before {
+    display: none;
+  }
+  .services .tab-box-item li span {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .services .tab-box-item li h6 {
+    font-size: 13px;
+    text-transform: uppercase;
+  }
+  .services .tab-box-item .active {
+    color: #09ae07;
+  }
+  .services .tab-box-item .active:after {
+    display: block;
+  }
+  .services .services_content {
+    min-height: 350px;
+    padding-top: 80px;
+    padding-bottom: 57px;
+    background: #B8B8B8;
+  }
+  .services .services_content .item {
+    display: none;
+  }
+  .services .services_content .item .symbol {
+    font-size: 180px;
+    color: #f4f4f4;
+  }
+  .services .services_content .item h5 {
+    color: #09ae07;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-weight: 300;
+  }
+  .services .services_content .active {
+    display: block;
+  }
+  .icon-color{
+    color: #09ae07;
+  }
+}
+@media (max-width: 1305px){
+  .icon_Pd{
+    margin-bottom: 20px;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+                     4 - Header 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media (max-width: 767px){
+  .header .subtitle h3 {
+    margin-bottom: 5px;
+    font-weight: 100;
+  }
+  .header .subtitle h2 {
+    margin-bottom: 20px;
+    font-weight: 200;
+  }
+}
+@media (max-width: 1280px){
+  .header .button-scroll {
+    position: absolute;
+    bottom: 5vh;
+    left: calc(49.6% - 25.5px);
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    border: 1.8px solid #09ae07;
+    cursor: pointer;
+    z-index: 9;
+  }
+  .header .button-scroll:hover {
+    background: #09ae07;
+    transition: all .5s;
+    opacity: 0.5;
+  }
+  .button-scr-sub{
+    border: 0;
+    border-radius: 2px;
+    font-size: 16px;
+  }
+  .btn-bg-md-scr {
+    transition: all .5s;
+  }
+  .btn-bg-md-scr:hover {
+    border-color: #fff;
+    color: #fff;
+    background: transparent;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+                     5 - Team 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media screen and (max-width: 767px) {
+    .Team-wrap.margin-top{
+        margin-top: 50px;
+    }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+                     6 - Images 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media (max-width: 1280px){
+  /*This is where you place your header background images*/
+  /*Images should have a darker color palette*/
+  .header.demo1 {
+    background-image: url("../img/scotland.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    width: 100%;
+  }
+  .header.demo2 {
+    /*url MUST be online url, Not within the img folder*/
+    background-image: url("../img/scotland.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    background-position:center;
+  }
+  .skills {
+    /*url MUST be online url, Not within the img folder*/
+    background-image: url("../img/river-mountain.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    background-position:center;
+  }
+  .Reviews {
+    /*url MUST be online url, Not within the img folder*/
+    background-image: url("../img/lake.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    background-position:center;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+                     7 - Footer 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media (max-width: 991px){
+  footer .sub-footer {
+    text-align: center;
+    border-top: 2px solid #151515;
+    color: #fff;
+  }
+  .footer-Terms{
+    padding-right: 27.1%;
+    padding-left: 27.1%;
+    text-anchor: center;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #fff;
+    line-height: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+  }
+  .footer-Copyright{
+    margin-top: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #fff;
+    line-height: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+                     8 - Reviews
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media (max-width: 767px){
+  .Reviews .Reviews-say .Reviews-item p {
+    font-size: 14px;
+    color: #ccc;
+    font-style: italic;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 30px;
+  }
+  .Reviews .Reviews-say .Reviews-item h6 {
+    font-size: 14px;
+    color: #09ae07;
+    margin-bottom: 10px;
+  }
+  .Reviews .Reviews-say .Reviews-item h5 {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+  }
+}
